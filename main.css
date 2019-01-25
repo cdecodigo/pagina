@@ -1,0 +1,32 @@
+footer{
+    background-color: #353535;
+    padding-top: 40px;
+    margin-top: 20px;
+}
+
+footer .contenedor > div{
+    color: white;
+    padding: 0 20px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+footer h3{
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+footer h3 span{
+    color: yellow;
+}
+
+footer.footer-informacion{
+    float: left;
+    margin: 50%;
+}
+footer.redes-sociales{
+    float: right;
+    margin: 50%;
+}
