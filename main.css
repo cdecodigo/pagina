@@ -1,5 +1,5 @@
 footer{
-    background-color: skyblue;
+    background-color: rgba(0, 0, 0, 0.151);
     padding-top: 40px;
     margin-top: 20px;
 }
@@ -20,4 +20,8 @@ footer h3{
 
 footer h3 span{
     color: yellow;
+}
+
+.class{
+    margin: 8px;
 }
