@@ -21,7 +21,9 @@ footer h3{
 footer h3 span{
     color: yellow;
 }
-
-.class{
+.social-media{
+    text-align: center;
+}
+.icon{
     margin: 8px;
 }
