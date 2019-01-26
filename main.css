@@ -21,12 +21,3 @@ footer h3{
 footer h3 span{
     color: yellow;
 }
-
-footer.footer-informacion{
-    float: left;
-    margin: 50%;
-}
-footer.redes-sociales{
-    float: right;
-    margin: 50%;
-}
