@@ -1,81 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="stylesheet" type="text/css" media="screen" href="main.css" /> 
+<href='https://fonts.googleapis.com/css?family=Monofett' rel='stylesheet'>
+<link href="https://fonts.googleapis.com/css?family=Noto+Serif+SC" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CdeCódigo</title>
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> 
-    <href='https://fonts.googleapis.com/css?family=Monofett' rel='stylesheet'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <div class= "nav">    
+            <ul class="nav">
+                <li class="navItem"><a href="#inicio">Inicio</a></li>
+                <li class="navItem"><a href="#">Nosotros</a></li>
+                <li class="navItem"><a href="#">Reclutamiento</a></li> 
+                <li class="navItem"><a href="#contacto">Contacto</a></li>
+            </ul>
+    </div>
 </head>
+
 <body>
-
-<div class= "nav">    
-    <ul class="nav">
-        <li class="navItem"><a href="#inicio">Inicio</a></li>
-        <li class="navItem"><a href="#">Nosotros</a></li>
-        <li class="navItem"><a href="#">Reclutamiento</a></li> 
-        <li class="navItem"><a href="#contacto">Contacto</a></li>
-    </ul>
-</div>
-
-    <!-- Header -->
     
-    <div id="inicio" class="intro-header">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>C de Código</h1>
-                        <div id=foot>
-                               
-                                <a href="https://www.instagram.com/cdecodigo/" target="_blank"><img src="resources/insta_icon.png" height="px" width="48px"></a>
-                                
-                                <a href="https://github.com/cdecodigo" target="_blank"><img src="resources/git_icon.png" height="px" width="48px"></a>
-                                
-                                <a href="https://www.facebook.com/C-De-Código-146485009558209/" target="_blank"><img src="resources/face_icon.png" height="px" width="48px"></a>
-                                
-                            </div>
-                               <!-- Contenido -->
-            <div class="contenido">
-                <hr>
-                    <ul class="list-inline">                         
-                        <li class="list-inline-item">Software
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="55" viewBox="0 0 16 16">
+    <!-- Header -->
+<div id="inicio" class="intro-header">
+    <div class= "container">
+
+        <div class="row">
+            <div class="col">
+                <div class="intro-message">
+                    <h1>C de Código</h1>
+                    <div id=foot>           
+                        <a href="https://www.instagram.com/cdecodigo/" target="_blank"><img src="resources/insta_icon.png" height="px" width="48px"></a>        
+                        <a href="https://github.com/cdecodigo" target="_blank"><img src="resources/git_icon.png" height="px" width="48px"></a>
+                        <a href="https://www.facebook.com/C-De-Código-146485009558209/" target="_blank"><img src="resources/face_icon.png" height="px" width="48px"></a>
+                    </div>
+
+                    <!-- Contenido -->
+                    <div class="contenido">
+                        <hr>
+
+                            <ul class="list-inline">    
+
+                                <li class="list-inline-item">Software
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="55" viewBox="0 0 16 16">
                                     <path fill-rule="evenodd" d="M15 2H1c-.55 0-1 .45-1 1v9c0 .55.45 1 1 1h5.34c-.25.61-.86 1.39-2.34 2h8c-1.48-.61-2.09-1.39-2.34-2H15c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm0 9H1V3h14v8z"/>
-                                </svg>
-                        </li> 
-                        <li class="list-inline-item">Programación
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="55" viewBox="0 0 14 16">
+                                    </svg>
+                                </li> 
+
+                                <li class="list-inline-item">Programación
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="55" viewBox="0 0 14 16">
                                     <path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/>
                                     </svg>
-                        </li>
-                        <li class="list-inline-item">Educación
-                                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="55" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M7.83 9.19L4 8c-4-8 0 1.5 0 2.5S5.8 12 8 12s4-.5 4-1.5V8L8.17 9.19a.73.73 0 0 1-.36 0h.02zm.28-6.39a.34.34 0 0 0-.2 0L.27 5.18a.35.35 0 0 0 0 .67L2 6.4v1.77c-.3.17-.5.5-.5.86 0 .19.05.36.14.5-.08.14-.14.31-.14.5v2.58c0 .55 2 .55 2 0v-2.58c0-.19-.05-.36-.14-.5.08-.14.14-.31.14-.5 0-.38-.2-.69-.5-.86V6.72l4.89 1.53c.06.02.14.02.2 0l7.64-2.38a.35.35 0 0 0 0-.67L8.1 2.81l.01-.01zM8.02 6c-.55 0-1-.22-1-.5s.45-.5 1-.5 1 .22 1 .5-.45.5-1 .5z"/>
-                                </svg>
-                        </li>
-                    </ul>
-                
-                <hr>
+                                </li>
+
+                                <li class="list-inline-item">Educación
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="55" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M7.83 9.19L4 8c-4-8 0 1.5 0 2.5S5.8 12 8 12s4-.5 4-1.5V8L8.17 9.19a.73.73 0 0 1-.36 0h.02zm.28-6.39a.34.34 0 0 0-.2 0L.27 5.18a.35.35 0 0 0 0 .67L2 6.4v1.77c-.3.17-.5.5-.5.86 0 .19.05.36.14.5-.08.14-.14.31-.14.5v2.58c0 .55 2 .55 2 0v-2.58c0-.19-.05-.36-.14-.5.08-.14.14-.31.14-.5 0-.38-.2-.69-.5-.86V6.72l4.89 1.53c.06.02.14.02.2 0l7.64-2.38a.35.35 0 0 0 0-.67L8.1 2.81l.01-.01zM8.02 6c-.55 0-1-.22-1-.5s.45-.5 1-.5 1 .22 1 .5-.45.5-1 .5z"/>
+                                    </svg>
+                                </li>
+
+                            </ul>
+
+                        <hr>                        
+                    </div>
+                    
+                </div>                    
             </div>
-        
-            </div>                    
-        </div>
-    </div>    
+        </div>                            
+    </div>
+</div>
 
-    <div class="contenidos">
-
-        
+    <div>
+<h1 class="text-center">SOFTWARE</h1>
+    <p class="lead">C de Código busca desarrollar tecnología que se adapte al cliente de la mejor forma. Es por eso que el departamento de desarrollo de nuestro equipo 
+        se dedica al desarrollo de software. Trabajos como frontend, backend, webapps completas y aplicaciones nativas</p>
+    <p class="text-center">Desde arquitectura robusta hasta la mejor experiencia de usuario</p>
+</div>
+<hr>
+<div id="software" class="device single">
+    <div class="iphone">
+        <div class="button-right"></div>
+        <div class="button-left"></div>
     </div>
 
+    <div class="iphone iphone-back">
+        <div class="button-right"></div>
+        <div class="button-left"></div>
+        <div class="camera"></div>
+    </div>
+    <script>
 
+    const device = document.querySelector(".device");
 
+    function cssClasses(element, removeClass, addClass) {
+    return function() {
+        element.classList.remove(removeClass);
+        element.classList.add(addClass);
+    };
+    }
+    function switchDevice() {
+    setTimeout(cssClasses(device, "single", "both"), 1500);
+    setTimeout(cssClasses(device, "both", "macbook"), 3000);
+    setTimeout(cssClasses(device, "macbook", "both"), 4500);
+    setTimeout(cssClasses(device, "both", "single"), 6000);
+    }
+    switchDevice();
+
+    function timeOut() {
+    setTimeout(() => {
+        switchDevice();
+        timeOut();
+    }, 7500);
+    }
+    timeOut();
+    </script>    
 </div>
+<hr>
+
+
 
 
    <!-- Footer -->
-   <footer class="page-footer font-small blue pt-4">
+<footer class="page-footer font-small blue pt-4">
     
     <!-- Footer Links -->
     <div class="container-fluid text-center text-md-left">
@@ -88,12 +135,12 @@
 
                 <!-- Form -->
                 <form class="form-group">
-                    <label for="exampleFormControlInput1">Contactáctanos!</label>
-                    <input class="form-control form-control-sm mr-3 w-75 mt-3"   type="text" placeholder="Email" aria-label="Email">
+                    <label for="exampleFormControlInput1">¡Contáctanos!</label>
+                        <input class="form-control form-control-sm mr-3 w-75 mt-3"   type="text" placeholder="Email" aria-label="Email">
 
-                    <div class="mt-5">
-                        <button class="btn btn-primary" type="button">Enviar Mail</button>
-                    </div>
+                            <div class="mt-5">
+                                <button class="btn btn-primary" type="button">Enviar Mail</button>
+                            </div>
 
                 </form>
                 <!-- Form -->
@@ -104,49 +151,53 @@
 
             <hr class="clearfix w-100 d-md-none pb-3">
 
-            <!-- Grid column -->
-            <div class="col-md-3 mb-md-0 mb-3">
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
 
-                <!-- Links -->
-                <h5>Índice</h5>
+                    <!-- Links -->
+                    <h5>Índice</h5>
 
-                <ul class="list-unstyled">
-                    <li>
-                        <a href="#!">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="#!">Nosotros</a>
-                    </li>
-                    <li>
-                        <a href="#!">Blog</a>
-                    </li>
-                    <li>
-                        <a href="#!">Contacto</a>
-                    </li>
-                </ul>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#!">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="#!">Blog</a>
+                        </li>
+                        <li>
+                            <a href="#!">Contacto</a>
+                        </li>
+                    </ul>
 
-            </div>
-
+                </div>
+            <hr>
         </div>
         <!-- Grid row -->
 
     </div>
+            <!-- Footer Links -->
+            <div class="social-media">
 
-    <hr>
-    <!-- Footer Links -->
-    <div class="social-media">
-        <a href="https://www.facebook.com/C-De-C%C3%B3digo-146485009558209/"><img src="./resources/face_icon.png" width=32px height=32px alt="Facebook" class="icon"></a>
-        <a href="https://www.instagram.com/cdecodigo/"><img src="./resources/insta_icon.png" width=32px height=32px alt="Instagram" class="icon"></a>
-        <a href="#!"><img src="./resources/twit_icon.png" alt="Twitter" width=32px height=32px class="icon"></a>
-        <a href="#!"><img src="./resources/git_icon.png" alt="Github" width=32px height=32px class="icon"></a>
-    </div>
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Copyright:
-        <a href=#>CdeCodigo</a>
-    </div>
-    <!-- Copyright -->
+                <a href="https://www.facebook.com/C-De-C%C3%B3digo-146485009558209/"><img src="./resources/face_icon.png" width=32px height=32px alt="Facebook" class="icon"></a>
+                <a href="https://www.instagram.com/cdecodigo/"><img src="./resources/insta_icon.png" width=32px height=32px alt="Instagram" class="icon"></a>
+                <a href="#!"><img src="./resources/twit_icon.png" alt="Twitter" width=32px height=32px class="icon"></a>
+                <a href="https://github.com/cdecodigo"><img src="./resources/git_icon.png" alt="Github" width=32px height=32px class="icon"></a>
+            
+            </div>
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+            
+                <a href=#>CdeCodigo</a>
+            
+            </div>
+            <!-- Copyright -->
 
-</footer>
-<!-- Footer -->
-    </body>
+</footer> 
+
+    
+</body>
+
 </html>
